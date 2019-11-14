@@ -6,18 +6,18 @@ module Workarea
 
       initializer 'workarea.accordions' do
         Plugin.append_javascripts(
-            'storefront.dependencies',
-            'jquery-ui/widgets/accordion'
+          'storefront.dependencies',
+          'jquery-ui/widgets/accordion'
         )
 
         Plugin.append_javascripts(
-            'storefront.modules',
-            'workarea/storefront/accordions/modules/accordions'
+          'storefront.modules',
+          'workarea/storefront/accordions/modules/accordions'
         )
 
         Plugin.append_javascripts(
-            'storefront.config',
-            'workarea/storefront/accordions/config'
+          'storefront.config',
+          'workarea/storefront/accordions/config'
         )
 
         Plugin.append_stylesheets(
